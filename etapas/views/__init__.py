@@ -1,1 +1,1 @@
-from etapas import models, serializers
+from .etapas import EtapaViewSet

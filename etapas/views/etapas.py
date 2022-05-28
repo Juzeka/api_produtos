@@ -1,5 +1,5 @@
 from rest_framework.viewsets import ModelViewSet
-from etapas.serializers.etapas import EtapaAllSerializer
+from etapas.serializers import EtapaAllSerializer
 from etapas.models import Etapa
 
 

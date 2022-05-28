@@ -47,6 +47,7 @@ INSTALLED_APPS += [
 INSTALLED_APPS += [
     'ingredientes',
     'etapas',
+    'receitas',
 ]
 
 MIDDLEWARE = [
