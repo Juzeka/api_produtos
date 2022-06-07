@@ -14,5 +14,11 @@ Api simples de receitas de pratos com suas etapas e ingredientes.
 - ReceitaCreateUpdateSerializer
 ### UML
 ![Relacionamento](https://github.com/Juzeka/api_receitas/blob/master/relacionamento.png?raw=true)
-## Stacks utilizada
+## Stacks
 **Back-end:** Pyhton, Django, Django Rest Framework
+## Instalação
+- git clone https://github.com/Juzeka/api_receitas.git
+- python3 -m venv venv
+- . venv/bin/activate
+- pip install requirements.txt
+- python3 manage.py runserver
