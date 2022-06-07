@@ -4,12 +4,12 @@ from ingredientes.models.ingredientes import Ingrediente
 from rest_framework.authentication import (
     TokenAuthentication
 )
-from rest_framework.permissions import IsAuthenticated, IsAdminUser
+from rest_framework.permissions import IsAuthenticated
 
 
 class IngredientesViewSet(ModelViewSet):
     authentication_classes = [TokenAuthentication]
-    permission_classes = [IsAuthenticated, IsAdminUser]
+    permission_classes = [IsAuthenticated]
     queryset = Ingrediente.objects.all()
     serializer_class = IngredientesAllSerializers
 

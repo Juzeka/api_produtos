@@ -4,11 +4,11 @@ from etapas.models import Etapa
 from rest_framework.authentication import (
     TokenAuthentication
 )
-from rest_framework.permissions import IsAuthenticated, IsAdminUser
+from rest_framework.permissions import IsAuthenticated
 
 
 class EtapaViewSet(ModelViewSet):
     authentication_classes = [TokenAuthentication]
-    permission_classes = [IsAuthenticated, IsAdminUser]
+    permission_classes = [IsAuthenticated]
     queryset = Etapa.objects.all()
     serializer_class = EtapaAllSerializer
