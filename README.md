@@ -17,8 +17,10 @@ Api simples de receitas de pratos com suas etapas e ingredientes.
 ## Stacks
 **Back-end:** Pyhton, Django, Django Rest Framework
 ## Instalação
-- git clone https://github.com/Juzeka/api_receitas.git
-- python3 -m venv venv
-- . venv/bin/activate
-- pip install requirements.txt
-- python3 manage.py runserver
+```bash
+git clone https://github.com/Juzeka/api_receitas.git
+python3 -m venv venv
+. venv/bin/activate
+pip install requirements.txt
+python3 manage.py runserver
+```
